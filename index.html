@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bank Soalan Interaktif TIMSS — JPNK Kedah</title>
+<meta name="description" content="Bank Soalan Interaktif TIMSS — Jabatan Pendidikan Negeri Kedah, Sektor Pembelajaran. Koleksi soalan interaktif TIMSS Matematik dan Sains, sumbangan guru-guru seluruh negeri Kedah.">
+<link rel="icon" href="data:,">
+<style>
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; min-height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Arial, sans-serif;
+    background: linear-gradient(160deg, #1f4e78 0%, #16374f 60%, #0f2536 100%);
+    color: #1a2530;
+  }
+  .wrap {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 20px 40px;
+  }
+  header.hero { text-align: center; color: #fff; margin-bottom: 34px; }
+  header.hero .badge {
+    display: inline-block; font-size: 12px; letter-spacing: .06em; text-transform: uppercase;
+    background: rgba(255,255,255,.14); padding: 5px 12px; border-radius: 20px; margin-bottom: 14px;
+  }
+  header.hero h1 { margin: 0 0 10px; font-size: 30px; }
+  header.hero p { margin: 0; color: #cfe0f0; font-size: 14.5px; max-width: 620px; margin: 0 auto; line-height: 1.6; }
+  .stats {
+    display: flex; justify-content: center; gap: 14px; margin: 26px 0 40px; flex-wrap: wrap;
+  }
+  .stats .box {
+    background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.18);
+    border-radius: 10px; padding: 12px 22px; color: #fff; text-align: center; min-width: 120px;
+  }
+  .stats .box .n { font-size: 20px; font-weight: 800; }
+  .stats .box .l { font-size: 11px; color: #cfe0f0; margin-top: 2px; }
+  .cards {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 22px;
+  }
+  @media (max-width: 680px) { .cards { grid-template-columns: 1fr; } }
+  .card {
+    background: #fff; border-radius: 16px; padding: 30px 26px; text-decoration: none;
+    color: #1a2530; box-shadow: 0 18px 40px rgba(0,0,0,.22);
+    display: flex; flex-direction: column; gap: 10px; transition: transform .15s ease;
+  }
+  .card:hover { transform: translateY(-4px); }
+  .card .icon {
+    width: 56px; height: 56px; border-radius: 14px; display: flex; align-items: center; justify-content: center;
+    font-size: 26px; color: #fff;
+  }
+  .card.math .icon { background: linear-gradient(160deg,#2b6cb0,#1f4e78); }
+  .card.sains .icon { background: linear-gradient(160deg,#2f9e6e,#1f6e4e); }
+  .card h2 { margin: 4px 0 0; font-size: 19px; }
+  .card p { margin: 0; font-size: 13.5px; color: #5c6773; line-height: 1.5; }
+  .card .go { margin-top: auto; font-size: 13px; font-weight: 700; color: #1f4e78; }
+  .card.sains .go { color: #1f6e4e; }
+  footer { text-align: center; color: #9fb4c6; font-size: 12px; margin-top: 44px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <span class="badge">JPNK Kedah · Sektor Pembelajaran</span>
+    <h1>📚 Bank Soalan Interaktif TIMSS</h1>
+    <p>Koleksi soalan interaktif TIMSS (Trends in International Mathematics and Science Study)
+       yang disumbangkan oleh guru-guru dari seluruh negeri Kedah. Pilih bank soalan di bawah untuk mula.</p>
+  </header>
+
+  <div class="stats">
+    <div class="box"><div class="n">607</div><div class="l">Jumlah Soalan</div></div>
+    <div class="box"><div class="n">246</div><div class="l">Guru Penyumbang</div></div>
+    <div class="box"><div class="n">237</div><div class="l">Sekolah Terlibat</div></div>
+  </div>
+
+  <div class="cards">
+    <a class="card math" href="matematik/index.html">
+      <div class="icon">📐</div>
+      <h2>Bank Soalan Matematik</h2>
+      <p>310 soalan interaktif · 104 guru · 103 sekolah</p>
+      <div class="go">Buka Bank Matematik →</div>
+    </a>
+    <a class="card sains" href="sains/index.html">
+      <div class="icon">🔬</div>
+      <h2>Bank Soalan Sains</h2>
+      <p>297 soalan interaktif · 142 guru · 142 sekolah</p>
+      <div class="go">Buka Bank Sains →</div>
+    </a>
+  </div>
+
+  <footer>Jabatan Pendidikan Negeri Kedah &middot; Sektor Pembelajaran</footer>
+</div>
+</body>
+</html>
